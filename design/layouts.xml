@@ -82,16 +82,6 @@
               <order><![CDATA[3]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <menu><![CDATA[1]]></menu>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -166,21 +156,6 @@
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <content><![CDATA[{if $addons.call_requests.status == "A"}
-<div class="ty-cr-phone-number-link">
-    <div class="ty-cr-phone">{call_phone}  <span class="ty-cr-work">Пн-Пт с 10.00 до 18.00</span></div>
-    <div class="ty-cr-link">{call_request}</div>
-</div>
-{/if}]]></content>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -256,16 +231,6 @@
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <menu><![CDATA[2]]></menu>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -368,26 +333,6 @@
                 <order><![CDATA[2]]></order>
                 <status><![CDATA[A]]></status>
                 <translations/>
-                <contents>
-                  <item>
-                    <object_id><![CDATA[0]]></object_id>
-                    <object_type><![CDATA[]]></object_type>
-                    <lang_code><![CDATA[ru]]></lang_code>
-                    <content>
-                      <content><![CDATA[<div class="ty-social-link-block"><h3 class="ty-social-link__title">{__("get_social")}</h3>
-
-<div class="ty-social-link facebook">
-    <a href="http://www.facebook.com/pages/CS-Cart/156687676230"><i class="ty-icon-facebook ty-icon-moon-facebook"></i></a>
-</div>
-
-
-<div class="ty-social-link twitter">
-    <a href="https://twitter.com/cscart"><i class="ty-icon-twitter ty-icon-moon-twitter"></i></a>
-</div></div>
-]]></content>
-                    </content>
-                  </item>
-                </contents>
               </block>
             </blocks>
           </grid>
@@ -436,16 +381,6 @@
                 <order><![CDATA[0]]></order>
                 <status><![CDATA[A]]></status>
                 <translations/>
-                <contents>
-                  <item>
-                    <object_id><![CDATA[0]]></object_id>
-                    <object_type><![CDATA[]]></object_type>
-                    <lang_code><![CDATA[ru]]></lang_code>
-                    <content>
-                      <menu><![CDATA[3]]></menu>
-                    </content>
-                  </item>
-                </contents>
               </block>
             </blocks>
           </grid>
@@ -470,16 +405,6 @@
                 <order><![CDATA[0]]></order>
                 <status><![CDATA[A]]></status>
                 <translations/>
-                <contents>
-                  <item>
-                    <object_id><![CDATA[0]]></object_id>
-                    <object_type><![CDATA[]]></object_type>
-                    <lang_code><![CDATA[ru]]></lang_code>
-                    <content>
-                      <menu><![CDATA[4]]></menu>
-                    </content>
-                  </item>
-                </contents>
               </block>
             </blocks>
           </grid>
@@ -515,28 +440,6 @@ Monday - Friday</li>
                 <order><![CDATA[0]]></order>
                 <status><![CDATA[A]]></status>
                 <translations/>
-                <contents>
-                  <item>
-                    <object_id><![CDATA[0]]></object_id>
-                    <object_type><![CDATA[]]></object_type>
-                    <lang_code><![CDATA[ru]]></lang_code>
-                    <content>
-                      <content><![CDATA[<ul>
-    <li>3993 Hanover Street<br/>New York, NY 10016</li>
-    <li>+1 917-722-7425 (звонок бесплатный)</li>
-    <li>Пн-Пт 10.00 - 18.00</li>
-    <li><a class="ty-exception__links-a greeny" href="mailto:sales@example.com">sales@example.com</a></li>
-
-    <li><a href="{"pages.view?page_id=20"|fn_url}" class="ty-exception__links-a">О компании</a></li>
-
-</ul>
-
-
-
-]]></content>
-                    </content>
-                  </item>
-                </contents>
               </block>
             </blocks>
           </grid>
@@ -621,21 +524,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[newest]]></filling>
-                      <period><![CDATA[A]]></period>
-                      <last_days><![CDATA[1]]></last_days>
-                      <limit><![CDATA[4]]></limit>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -662,18 +550,6 @@ Monday - Friday</li>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[all]]></filling>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -710,21 +586,6 @@ Monday - Friday</li>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[newest]]></filling>
-                      <period><![CDATA[A]]></period>
-                      <last_days><![CDATA[10]]></last_days>
-                      <limit><![CDATA[6]]></limit>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -754,20 +615,6 @@ Monday - Friday</li>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[on_sale]]></filling>
-                      <limit><![CDATA[8]]></limit>
-                      <cid><![CDATA[]]></cid>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -815,20 +662,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[blog.text_links]]></filling>
-                      <parent_page_id><![CDATA[]]></parent_page_id>
-                      <limit><![CDATA[5]]></limit>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -974,23 +807,6 @@ Monday - Friday</li>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[similar]]></filling>
-                      <limit><![CDATA[4]]></limit>
-                      <percent_range><![CDATA[]]></percent_range>
-                      <similar_category><![CDATA[Y]]></similar_category>
-                      <similar_subcats><![CDATA[Y]]></similar_subcats>
-                      <similar_in_stock><![CDATA[Y]]></similar_in_stock>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -1022,23 +838,6 @@ Monday - Friday</li>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[similar]]></filling>
-                      <limit><![CDATA[3]]></limit>
-                      <percent_range><![CDATA[5]]></percent_range>
-                      <similar_category><![CDATA[N]]></similar_category>
-                      <similar_subcats><![CDATA[N]]></similar_subcats>
-                      <similar_in_stock><![CDATA[N]]></similar_in_stock>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -1100,18 +899,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[manually]]></filling>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
             <block>
               <type><![CDATA[products]]></type>
@@ -1136,22 +923,6 @@ Monday - Friday</li>
               <order><![CDATA[1]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[newest]]></filling>
-                      <period><![CDATA[A]]></period>
-                      <last_days><![CDATA[1]]></last_days>
-                      <limit><![CDATA[6]]></limit>
-                      <cid><![CDATA[]]></cid>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
             <block>
               <type><![CDATA[products]]></type>
@@ -1176,19 +947,6 @@ Monday - Friday</li>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[recent_products]]></filling>
-                      <limit><![CDATA[3]]></limit>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -1685,16 +1443,6 @@ Monday - Friday</li>
               <order><![CDATA[3]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <menu><![CDATA[1]]></menu>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -1764,16 +1512,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <content><![CDATA[<h2> {__("stores")}</h2>]]></content>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -1895,18 +1633,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[manually]]></filling>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
             <block>
               <type><![CDATA[breadcrumbs]]></type>
@@ -1953,20 +1679,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[full_tree_cat]]></filling>
-                      <parent_category_id><![CDATA[]]></parent_category_id>
-                      <sort_by><![CDATA[position]]></sort_by>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
             <block>
               <type><![CDATA[product_filters]]></type>
@@ -1988,18 +1700,6 @@ Monday - Friday</li>
               <order><![CDATA[1]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[manually]]></filling>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -2141,19 +1841,6 @@ Monday - Friday</li>
               <order><![CDATA[2]]></order>
               <status><![CDATA[D]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[recent_products]]></filling>
-                      <limit><![CDATA[3]]></limit>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -2310,23 +1997,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <content><![CDATA[<div class="ty-company-info">
-<h4>Cтаньте вендором</h4>
-<ul>
-<li>Получите доступ к личной панели администратора</li>
-<li>Используйте общую витрину для продажи своих товаров</li>
-<li>Получайте свою долю прибыли</li>
-</ul>
-</div>]]></content>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -2486,18 +2156,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[manually]]></filling>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>
@@ -2598,21 +2256,6 @@ Monday - Friday</li>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
-              <contents>
-                <item>
-                  <object_id><![CDATA[0]]></object_id>
-                  <object_type><![CDATA[]]></object_type>
-                  <lang_code><![CDATA[ru]]></lang_code>
-                  <content>
-                    <items>
-                      <filling><![CDATA[blog.recent_posts]]></filling>
-                      <period><![CDATA[A]]></period>
-                      <last_days><![CDATA[1]]></last_days>
-                      <limit><![CDATA[3]]></limit>
-                    </items>
-                  </content>
-                </item>
-              </contents>
             </block>
           </blocks>
         </grid>

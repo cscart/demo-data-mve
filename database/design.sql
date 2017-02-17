@@ -10,9 +10,6 @@ REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_ty
 REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`) VALUES  (231, '25', 'pages');
 REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`) VALUES  (227, '27', 'pages');
 
-REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (1,1,'Modern',0,'theme');
-REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (2,1,'Modern',0,'mail');
-REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (3,1,'Modern',0,'favicon');
 REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (4,0,'',1,'theme');
 REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (5,0,'',1,'mail');
 REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (8,0,'',1,'favicon');
