@@ -1,27 +1,17 @@
-TRUNCATE TABLE ?:banner_descriptions;
-INSERT INTO ?:banner_descriptions (`banner_id`, `banner`, `url`, `description`, `lang_code`) VALUES (20,'Welcome to Multi-Vendor demo marketplace','pages.view&page_id=24','','en');
-INSERT INTO ?:banner_descriptions (`banner_id`, `banner`, `url`, `description`, `lang_code`) VALUES (21,'Acme Corporation: Join our loyalty program to get special prices','pages.view&page_id=25','','en');
-INSERT INTO ?:banner_descriptions (`banner_id`, `banner`, `url`, `description`, `lang_code`) VALUES (22,'Stark Industries: buy two for the price of one','pages.view&page_id=26','','en');
-INSERT INTO ?:banner_descriptions (`banner_id`, `banner`, `url`, `description`, `lang_code`) VALUES (23,'Become our vendor with no transaction fee','pages.view&page_id=27','','en');
-INSERT INTO ?:banner_descriptions (`banner_id`, `banner`, `url`, `description`, `lang_code`) VALUES (24,'No transaction fee','companies.apply_for_vendor&plan_id=2','','en');
-INSERT INTO ?:banner_descriptions (`banner_id`, `banner`, `url`, `description`, `lang_code`) VALUES (25,'Gift certificate','','','en');
-INSERT INTO ?:banner_descriptions (`banner_id`, `banner`, `url`, `description`, `lang_code`) VALUES (26,'Gift certificates','','','en');
+UPDATE ?:banners SET position=0 WHERE banner_id=6;
+UPDATE ?:banners SET position=10 WHERE banner_id=8;
+UPDATE ?:banners SET position=20 WHERE banner_id=9;
+UPDATE ?:banners SET position=30 WHERE banner_id=16;
+UPDATE ?:banners SET position=40 WHERE banner_id=18;
 
-TRUNCATE TABLE ?:banner_images;
-INSERT INTO ?:banner_images (`banner_image_id`, `banner_id`, `lang_code`) VALUES (42,20,'en');
-INSERT INTO ?:banner_images (`banner_image_id`, `banner_id`, `lang_code`) VALUES (43,21,'en');
-INSERT INTO ?:banner_images (`banner_image_id`, `banner_id`, `lang_code`) VALUES (44,22,'en');
-INSERT INTO ?:banner_images (`banner_image_id`, `banner_id`, `lang_code`) VALUES (45,23,'en');
-INSERT INTO ?:banner_images (`banner_image_id`, `banner_id`, `lang_code`) VALUES (47,24,'en');
-INSERT INTO ?:banner_images (`banner_image_id`, `banner_id`, `lang_code`) VALUES (16,25,'en');
-INSERT INTO ?:banner_images (`banner_image_id`, `banner_id`, `lang_code`) VALUES (38,26,'en');
+UPDATE ?:banner_descriptions SET banner='Welcome to Multi-Vendor demo marketplace', url='pages.view&page_id=24', description='' WHERE banner_id=6;
+UPDATE ?:banner_descriptions SET banner='Acme Corporation: Join our loyalty program to get special prices', url='pages.view&page_id=25', description='' WHERE banner_id=8;
+UPDATE ?:banner_descriptions SET banner='Stark Industries: buy two for the price of one', url='pages.view&page_id=26', description='' WHERE banner_id=9;
+UPDATE ?:banner_descriptions SET banner='Become our vendor with no transaction fee', url='pages.view&page_id=27', description='' WHERE banner_id=16;
+UPDATE ?:banner_descriptions SET banner='No transaction fee', url='companies.apply_for_vendor&plan_id=2', description='' WHERE banner_id=18;
 
-TRUNCATE TABLE ?:banners;
-INSERT INTO ?:banners (`banner_id`, `status`, `type`, `target`, `localization`, `timestamp`, `position`) VALUES (20,'A','G','T','',1485118800,10);
-INSERT INTO ?:banners (`banner_id`, `status`, `type`, `target`, `localization`, `timestamp`, `position`) VALUES (21,'A','G','T','',1485118800,20);
-INSERT INTO ?:banners (`banner_id`, `status`, `type`, `target`, `localization`, `timestamp`, `position`) VALUES (22,'A','G','T','',1485118800,30);
-INSERT INTO ?:banners (`banner_id`, `status`, `type`, `target`, `localization`, `timestamp`, `position`) VALUES (23,'A','G','T','',1485118800,40);
-INSERT INTO ?:banners (`banner_id`, `status`, `type`, `target`, `localization`, `timestamp`, `position`) VALUES (24,'A','G','T','',1485205200,0);
-INSERT INTO ?:banners (`banner_id`, `status`, `type`, `target`, `localization`, `timestamp`, `position`) VALUES (25,'A','G','T','',1479118448,0);
-INSERT INTO ?:banners (`banner_id`, `status`, `type`, `target`, `localization`, `timestamp`, `position`) VALUES (26,'A','G','T','',1479121448,40);
-
+UPDATE ?:images_links SET image_id=8270 WHERE object_type='promo' AND object_id IN (SELECT banner_image_id FROM ?:banner_images WHERE banner_id=6);
+UPDATE ?:images_links SET image_id=8277 WHERE object_type='promo' AND object_id IN (SELECT banner_image_id FROM ?:banner_images WHERE banner_id=8);
+UPDATE ?:images_links SET image_id=8278 WHERE object_type='promo' AND object_id IN (SELECT banner_image_id FROM ?:banner_images WHERE banner_id=9);
+UPDATE ?:images_links SET image_id=8279 WHERE object_type='promo' AND object_id IN (SELECT banner_image_id FROM ?:banner_images WHERE banner_id=16);
+UPDATE ?:images_links SET image_id=8290 WHERE object_type='promo' AND object_id IN (SELECT banner_image_id FROM ?:banner_images WHERE banner_id=18);
