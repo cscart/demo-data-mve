@@ -1,0 +1,1 @@
+UPDATE ?:newsletter_descriptions SET newsletter='You didn\'t complete your order', newsletter_multiple='', body_html='<p>Hi!</p><p>We noticed that you left a few items in your shopping cart. They are not reserved and can be sold out. </p><p>If you have any questions, we are here to help.</p>' WHERE newsletter_id = 1;
