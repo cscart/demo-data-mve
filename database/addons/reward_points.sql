@@ -29,3 +29,5 @@ REPLACE INTO ?:reward_points (`reward_point_id`, `object_id`, `usergroup_id`, `a
 REPLACE INTO ?:reward_points (`reward_point_id`, `object_id`, `usergroup_id`, `amount`, `amount_type`, `object_type`, `company_id`) VALUES (5,0,1,0,'A','A',0);
 REPLACE INTO ?:reward_points (`reward_point_id`, `object_id`, `usergroup_id`, `amount`, `amount_type`, `object_type`, `company_id`) VALUES (6,0,2,10,'A','A',0);
 
+REPLACE INTO `cscart_user_data` (`user_id`, `type`, `data`) VALUES (17,'W','s:3:"220";');
+REPLACE INTO `cscart_user_data` (`user_id`, `type`, `data`) VALUES (23,'W','s:2:"20";');
