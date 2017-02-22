@@ -652,7 +652,7 @@ Monday - Friday</li>
               <content>
                 <items>
                   <filling><![CDATA[blog.text_links]]></filling>
-                  <parent_page_id><![CDATA[]]></parent_page_id>
+                  <parent_page_id><![CDATA[33]]></parent_page_id>
                   <limit><![CDATA[5]]></limit>
                 </items>
               </content>
