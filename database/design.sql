@@ -6,9 +6,14 @@ TRUNCATE TABLE `cscart_logos`;
 TRUNCATE TABLE `cscart_menus`;
 TRUNCATE TABLE `cscart_menus_descriptions`;
 
-REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`) VALUES (232, '26', 'pages');
-REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`) VALUES  (231, '25', 'pages');
-REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`) VALUES  (227, '27', 'pages');
+REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`)
+  VALUES  ((SELECT `snapping_id` FROM `cscart_bm_snapping` WHERE `user_class` = 'products__stark_industries' LIMIT 1), '26', 'pages');
+
+REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`)
+  VALUES  ((SELECT `snapping_id` FROM `cscart_bm_snapping` WHERE `user_class` = 'products__acme_corporation' LIMIT 1), '25', 'pages');
+
+REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`)
+  VALUES  ((SELECT `snapping_id` FROM `cscart_bm_snapping` WHERE `user_class` = 'block__no_transaction_fee' LIMIT 1), '27', 'pages');
 
 REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (4,0,'',1,'theme');
 REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (5,0,'',1,'mail');
