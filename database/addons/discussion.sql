@@ -1,3 +1,5 @@
+UPDATE ?:settings_objects SET value = 'B' WHERE name = 'company_discussion_type';
+
 REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (1,0,'E','B');
 REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (2,1,'M','B');
 REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (127,334,'P','D');
