@@ -1,5 +1,4 @@
 TRUNCATE TABLE ?:vendor_plans;
-TRUNCATE TABLE ?:vendor_plan_descriptions;
 
 REPLACE INTO ?:vendor_plans (`plan_id`, `status`, `position`, `is_default`, `price`, `periodicity`, `commission`, `products_limit`, `revenue_limit`, `vendor_store`, `categories`) VALUES (1,'A',20,0,100.00,'month',10.00,1000,1000.00,1,'');
 REPLACE INTO ?:vendor_plans (`plan_id`, `status`, `position`, `is_default`, `price`, `periodicity`, `commission`, `products_limit`, `revenue_limit`, `vendor_store`, `categories`) VALUES (2,'A',10,0,0.00,'month',20.00,25,500.00,0,'');
