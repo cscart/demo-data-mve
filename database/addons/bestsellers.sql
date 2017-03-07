@@ -1,3 +1,4 @@
+TRUNCATE TABLE ?:product_sales;
 REPLACE INTO ?:product_sales (`category_id`, `product_id`, `amount`) VALUES (99,611,1);
 REPLACE INTO ?:product_sales (`category_id`, `product_id`, `amount`) VALUES (80,227,4);
 REPLACE INTO ?:product_sales (`category_id`, `product_id`, `amount`) VALUES (97,453,1);
