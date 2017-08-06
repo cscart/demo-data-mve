@@ -4,7 +4,7 @@
 
 Contains SQL dumps that are included into demo data of the Multi-Vendor release and executed during the installation process.
 
-Data in this files are designed to be applied to the freshly installed instance of Multi-Vendor.
+Data in this files is designed to be applied to the freshly installed instance of Multi-Vendor.
 
 #### database/addons
 
