@@ -1,5 +1,7 @@
 # Demo data for Multi-Vendor software
 
+Structural description:
+
 ## database
 
 Contains SQL dumps that are included into demo data of the Multi-Vendor release and executed during the installation process.
