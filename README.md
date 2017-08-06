@@ -1,4 +1,4 @@
-# Demo data for Multi-Vendor
+# Demo data for Multi-Vendor software
 
 ## database
 
