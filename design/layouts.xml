@@ -577,7 +577,7 @@ Monday - Friday</li>
               <content>
                 <items>
                   <filling><![CDATA[manually]]></filling>
-                  <item_ids><![CDATA[5765,5766,5764]]></item_ids>
+                  <item_ids><![CDATA[277,5765,5766,5764]]></item_ids>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
@@ -606,7 +606,7 @@ Monday - Friday</li>
               <content>
                 <items>
                   <filling><![CDATA[manually]]></filling>
-                  <item_ids><![CDATA[472,765,3765,2278,1677,1438,4507,4471,4437,890]]></item_ids>
+                  <item_ids><![CDATA[472,765,3765,2278,1677,277,1438,4507,4471,4437,890]]></item_ids>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
