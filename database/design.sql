@@ -4,7 +4,7 @@
 
 TRUNCATE TABLE `cscart_logos`;
 TRUNCATE TABLE `cscart_menus`;
-TRUNCATE TABLE `cscart_menus_descriptions`;
+
 DELETE FROM `cscart_images_links` WHERE object_type = 'logos';
 
 REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`)
