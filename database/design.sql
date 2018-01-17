@@ -3,8 +3,7 @@
  */
 
 TRUNCATE TABLE `cscart_logos`;
-TRUNCATE TABLE `cscart_menus`;
-TRUNCATE TABLE `cscart_menus_descriptions`;
+
 DELETE FROM `cscart_images_links` WHERE object_type = 'logos';
 
 REPLACE INTO `cscart_bm_block_statuses` (`snapping_id`, `object_ids`, `object_type`)
@@ -48,16 +47,6 @@ REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `
 REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (41,2,'Bright_theme',0,'theme');
 REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (42,2,'Bright_theme',0,'favicon');
 REPLACE INTO `cscart_logos` (`logo_id`, `layout_id`, `style_id`, `company_id`, `type`) VALUES (43,2,'Bright_theme',0,'mail');
-
-REPLACE INTO `cscart_menus` (`menu_id`, `status`, `company_id`) VALUES (1,'A',0);
-REPLACE INTO `cscart_menus` (`menu_id`, `status`, `company_id`) VALUES (2,'A',0);
-REPLACE INTO `cscart_menus` (`menu_id`, `status`, `company_id`) VALUES (3,'A',0);
-REPLACE INTO `cscart_menus` (`menu_id`, `status`, `company_id`) VALUES (4,'A',0);
-
-REPLACE INTO `cscart_menus_descriptions` (`menu_id`, `lang_code`, `name`) VALUES (1,'en','Quick links');
-REPLACE INTO `cscart_menus_descriptions` (`menu_id`, `lang_code`, `name`) VALUES (2,'en','Main menu');
-REPLACE INTO `cscart_menus_descriptions` (`menu_id`, `lang_code`, `name`) VALUES (3,'en','Shop (footer)');
-REPLACE INTO `cscart_menus_descriptions` (`menu_id`, `lang_code`, `name`) VALUES (4,'en','Create orders (footer)');
 
 REPLACE INTO `cscart_images_links` (`pair_id`, `object_id`, `object_type`, `image_id`, `detailed_id`, `type`, `position`) VALUES (1,1,'logos',1000,0,'M',0);
 REPLACE INTO `cscart_images_links` (`pair_id`, `object_id`, `object_type`, `image_id`, `detailed_id`, `type`, `position`) VALUES (2,2,'logos',1001,0,'M',0);
