@@ -536,7 +536,7 @@ Monday - Friday</li>
                 <number_of_columns><![CDATA[5]]></number_of_columns>
                 <show_location><![CDATA[Y]]></show_location>
                 <show_rating><![CDATA[Y]]></show_rating>
-                <show_total_products><![CDATA[Y]]></show_total_products>
+                <show_products_count><![CDATA[Y]]></show_products_count>
                 <displayed_vendors><![CDATA[5]]></displayed_vendors>
               </properties>
               <lang_code><![CDATA[en]]></lang_code>
