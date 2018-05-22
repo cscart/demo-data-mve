@@ -1,4 +1,4 @@
-UPDATE ?:settings_objects SET value='AIzaSyDq-RPrI8XOI7rWjN7dm0DoWpS-HVzb2QY ' WHERE name = 'api_key' AND section_id = (SELECT section_id FROM  ?:settings_sections WHERE name =  'vendor_locations');
+UPDATE ?:settings_objects SET value='AIzaSyDq-RPrI8XOI7rWjN7dm0DoWpS-HVzb2QY' WHERE name = 'api_key' AND section_id = (SELECT section_id FROM  ?:settings_sections WHERE name =  'vendor_locations');
 
 REPLACE INTO ?:vendor_locations (company_id, place_id, lat, lng, country, state, locality, route, postal_code, street_number, formatted_address) VALUES(1, 'ChIJt6snDDZnXIYRNeTUWJ3hkNk', 29.536123, -98.579933, 'US', 'TX', 'San Antonio', 'USAA Blvd', '', '', 'USAA Blvd, San Antonio, TX, США');
 REPLACE INTO ?:vendor_locations (company_id, place_id, lat, lng, country, state, locality, route, postal_code, street_number, formatted_address) VALUES(2, 'EiVNYXNzYWNodXNldHRzIEF2ZSwgQ2FtYnJpZGdlLCBNQSwgVVNB', 42.375931, -71.118584, 'US', 'MA', 'Cambridge', 'MA-2A', '', '', 'Massachusetts Ave, Cambridge, MA, США');
