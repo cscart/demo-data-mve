@@ -568,7 +568,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/footer_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[1]]></order>
               <status><![CDATA[A]]></status>
