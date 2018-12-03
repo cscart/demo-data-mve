@@ -947,7 +947,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/sidebox_simple.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/sidebox_general.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
