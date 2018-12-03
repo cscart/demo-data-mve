@@ -568,7 +568,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[1]]></order>
               <status><![CDATA[A]]></status>
@@ -598,7 +598,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
@@ -634,7 +634,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[homepage-hotdeals]]></user_class>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
@@ -663,7 +663,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[homepage-on-sale]]></user_class>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
@@ -710,7 +710,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
@@ -738,7 +738,7 @@ Monday - Friday</li>
               <object_type><![CDATA[]]></object_type>
               <content><![CDATA[]]></content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[homepage-reviews]]></user_class>
               <order><![CDATA[0]]></order>
               <status><![CDATA[A]]></status>
@@ -767,7 +767,7 @@ Monday - Friday</li>
               <object_type><![CDATA[]]></object_type>
               <content><![CDATA[]]></content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
@@ -855,7 +855,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
@@ -886,7 +886,7 @@ Monday - Friday</li>
                 </items>
               </content>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_simple.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[2]]></order>
               <status><![CDATA[A]]></status>
