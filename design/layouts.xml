@@ -135,6 +135,7 @@
               <type><![CDATA[template]]></type>
               <properties>
                 <template><![CDATA[blocks/static_templates/logo.tpl]]></template>
+                <enable_link><![CDATA[Y]]></enable_link>
               </properties>
               <lang_code><![CDATA[en]]></lang_code>
               <name><![CDATA[Logo]]></name>
@@ -1529,6 +1530,7 @@ Monday - Friday</li>
               <type><![CDATA[template]]></type>
               <properties>
                 <template><![CDATA[blocks/static_templates/logo.tpl]]></template>
+                <enable_link><![CDATA[Y]]></enable_link>
               </properties>
               <lang_code><![CDATA[en]]></lang_code>
               <name><![CDATA[Logo]]></name>
