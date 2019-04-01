@@ -1097,7 +1097,7 @@ Monday - Friday</li>
       </container>
       <container container_id="22" location_id="6" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A"/>
       <container container_id="23" location_id="6" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A">
-        <grid width="12" user_class="main-content-grid" linked_to_default="Y" status="A" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0">
+        <grid width="12" user_class="main-content-grid" linked_to_default="Y" status="A" offset="0" omega="0" alpha="1" wrapper="blocks/grid_wrappers/lite_checkout.tpl" content_align="FULL_WIDTH" html_element="div" clear="0">
           <blocks>
             <block>
               <type><![CDATA[lite_checkout_location]]></type>
