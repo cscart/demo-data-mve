@@ -1344,12 +1344,48 @@ Monday - Friday</li>
               <content><![CDATA[]]></content>
               <availability/>
               <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[blocks/lite_checkout/wrappers/block_with_header.tpl]]></wrapper>
+              <wrapper><![CDATA[blocks/lite_checkout/wrappers/checkout_block_with_heading.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
               <order><![CDATA[6]]></order>
               <status><![CDATA[A]]></status>
               <translations>
                 <translation lang_code="ru"><![CDATA[Способы оплаты]]></translation>
+              </translations>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[lite_checkout_customer_billing]]></type>
+              <properties>
+                <template><![CDATA[blocks/lite_checkout/customer_billing.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Billing address]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[manually]]></filling>
+                  <item_ids><![CDATA[14,16,30,18,28,22,24,26]]></item_ids>
+                  <required>
+                    <field_id_14><![CDATA[N]]></field_id_14>
+                    <field_id_16><![CDATA[N]]></field_id_16>
+                    <field_id_30><![CDATA[N]]></field_id_30>
+                    <field_id_18><![CDATA[N]]></field_id_18>
+                    <field_id_28><![CDATA[N]]></field_id_28>
+                    <field_id_22><![CDATA[N]]></field_id_22>
+                    <field_id_24><![CDATA[N]]></field_id_24>
+                    <field_id_26><![CDATA[N]]></field_id_26>
+                  </required>
+                </items>
+              </content>
+              <availability/>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[7]]></order>
+              <status><![CDATA[A]]></status>
+              <translations>
+                <translation lang_code="ru"><![CDATA[Адрес плательщика]]></translation>
               </translations>
               <contents/>
             </block>
@@ -1367,7 +1403,7 @@ Monday - Friday</li>
               <object_ids><![CDATA[]]></object_ids>
               <wrapper><![CDATA[]]></wrapper>
               <user_class><![CDATA[]]></user_class>
-              <order><![CDATA[7]]></order>
+              <order><![CDATA[8]]></order>
               <status><![CDATA[A]]></status>
               <translations>
                 <translation lang_code="ru"><![CDATA[Условия оформления заказа]]></translation>
@@ -1388,7 +1424,7 @@ Monday - Friday</li>
               <object_ids><![CDATA[]]></object_ids>
               <wrapper><![CDATA[]]></wrapper>
               <user_class><![CDATA[]]></user_class>
-              <order><![CDATA[8]]></order>
+              <order><![CDATA[9]]></order>
               <status><![CDATA[A]]></status>
               <translations>
                 <translation lang_code="ru"><![CDATA[Подпишитесь на нашу рассылку!]]></translation>
@@ -1407,7 +1443,7 @@ Monday - Friday</li>
               <object_ids><![CDATA[]]></object_ids>
               <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
               <user_class><![CDATA[]]></user_class>
-              <order><![CDATA[9]]></order>
+              <order><![CDATA[10]]></order>
               <status><![CDATA[D]]></status>
               <translations>
                 <translation lang_code="ru"><![CDATA[Главное содержимое]]></translation>
