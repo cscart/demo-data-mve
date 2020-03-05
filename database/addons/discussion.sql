@@ -3469,6 +3469,11 @@ REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALU
 REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (3792,242,'C','D');
 REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (3791,33,'A','C');
 REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (3793,19,'A','D');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (3471, 5464, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (3794, 280, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (3795, 282, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (3796, 278, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES (3472, 5465, 'P', 'B');
 
 REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('I\'m totally satisfied with the order. Good job!',1,2);
 REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('This is the third time I buy from Acme - the best service ever.',2,2);
@@ -3595,6 +3600,11 @@ REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('
 REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('My parcel was damaged. Oh! There isn’t enough camomile tea in the world to quell the rage in my heart.',123,1);
 REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('You\'re awesome, guys! Everything you do is great.',124,3791);
 REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('I would recommend your company to my friends and business associates. The rating would be a 10',125,3791);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('Great quality product. Everything about it is excellent. Highly recommended.', 129, 3796);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('It is consistent with the description, and the effect can be tested. It\'s really satisfying shopping. ', 128, 3471);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('I bought the biggest size and it\'s still small for me. 4xl is the biggest i can get, but it fits like a fat guy!', 127, 3795);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('Great t-shirt, to see after machine passage, I ordered L, it fits perfectly to my size.', 126, 3794);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES ('Everything seems fine at the moment. It comes well wrapped and protected and looks like all the accessories. I still have to try it and work with it, I\'ll write comments when I try it, hope it works all right', 130, 3472);
 
 REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (1,2,'John Doe',1447236900,1,'5f68c2c5','D');
 REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (2,2,'Mickey Mouse',1482229560,1,'5f68c2c5','A');
@@ -3721,6 +3731,11 @@ REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `u
 REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (123,1,'Sheldon Cooper',1477639860,1,'5f68c2c5','A');
 REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (124,3791,'Riccky',1485339965,0,'5f68c2c5','A');
 REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (125,3791,'Mary Jane',1485339992,0,'5f68c2c5','A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (128, 3471, 'Ivan', 1583326800, 0, '5f68c2c5', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (127, 3795, 'Mason', 1583326680, 0, '5f68c2c5', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (126, 3794, 'James', 1583326560, 0, '5f68c2c5', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (129, 3796, 'Michael', 1583326740, 0, '5f68c2c5', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES (130, 3472, 'Michael Corleone', 1583394480, 0, '5f68c2c5', 'A');
 
 REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (5,1,2);
 REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (5,2,2);
@@ -3847,3 +3862,8 @@ REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES
 REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (2,123,1);
 REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (0,124,3791);
 REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (0,125,3791);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (5, 129, 3796);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (5, 128, 3471);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (4, 127, 3795);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (5, 126, 3794);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES (5, 130, 3472);
