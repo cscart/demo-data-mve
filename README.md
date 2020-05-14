@@ -1,4 +1,6 @@
-# Demo data for Multi-Vendor software
+# This repository is no longer supported.
+
+## Demo data for Multi-Vendor software
 
 Structural description:
 
