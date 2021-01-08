@@ -18,26 +18,6 @@
         <grid width="3" user_class="top-links-grid" linked_to_default="Y" status="A" offset="0" omega="0" alpha="1" wrapper="" content_align="LEFT" html_element="div" clear="0">
           <blocks>
             <block>
-              <type><![CDATA[location_selector]]></type>
-              <properties>
-                <template><![CDATA[addons/vendor_locations/blocks/location_selector.tpl]]></template>
-              </properties>
-              <lang_code><![CDATA[en]]></lang_code>
-              <name><![CDATA[Location]]></name>
-              <object_id><![CDATA[0]]></object_id>
-              <object_type><![CDATA[]]></object_type>
-              <content><![CDATA[]]></content>
-              <object_ids><![CDATA[]]></object_ids>
-              <wrapper><![CDATA[]]></wrapper>
-              <user_class><![CDATA[]]></user_class>
-              <order><![CDATA[0]]></order>
-              <status><![CDATA[A]]></status>
-              <translations>
-                <translation lang_code="ru"><![CDATA[Место нахождения]]></translation>
-              </translations>
-              <contents/>
-            </block>
-            <block>
               <type><![CDATA[languages]]></type>
               <properties>
                 <template><![CDATA[blocks/languages.tpl]]></template>
@@ -81,7 +61,7 @@
             </block>
           </blocks>
         </grid>
-        <grid width="11" user_class="top-links-grid" linked_to_default="Y" status="A" offset="0" omega="0" alpha="0" wrapper="" content_align="LEFT" html_element="div" clear="0">
+        <grid width="8" user_class="top-links-grid" linked_to_default="Y" status="A" offset="0" omega="0" alpha="0" wrapper="" content_align="LEFT" html_element="div" clear="0">
           <blocks>
             <block>
               <type><![CDATA[menu]]></type>
@@ -98,14 +78,38 @@
               </content>
               <object_ids><![CDATA[]]></object_ids>
               <wrapper><![CDATA[]]></wrapper>
-              <user_class><![CDATA[top-quick-links hidden-phone]]></user_class>
+              <user_class><![CDATA[top-quick-links]]></user_class>
               <order><![CDATA[3]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
             </block>
           </blocks>
         </grid>
-        <grid width="2" user_class="" linked_to_default="Y" status="A" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1">
+        <grid width="3" user_class="top-links-grid" linked_to_default="Y" status="A" offset="0" omega="0" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="0">
+            <blocks>
+              <block>
+                <type><![CDATA[location_selector]]></type>
+                <properties>
+                  <template><![CDATA[addons/vendor_locations/blocks/location_selector.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Location]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations>
+                  <translation lang_code="ru"><![CDATA[Место нахождения]]></translation>
+                </translations>
+                <contents/>
+              </block>
+            </blocks>
+        </grid>
+        <grid width="2" user_class="top-links-grid" linked_to_default="Y" status="A" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1">
           <blocks>
             <block>
               <type><![CDATA[my_account]]></type>
@@ -1887,14 +1891,14 @@ Monday - Friday</li>
               </content>
               <object_ids><![CDATA[]]></object_ids>
               <wrapper><![CDATA[]]></wrapper>
-              <user_class><![CDATA[top-quick-links hidden-phone]]></user_class>
+              <user_class><![CDATA[top-quick-links]]></user_class>
               <order><![CDATA[3]]></order>
               <status><![CDATA[A]]></status>
               <translations/>
             </block>
           </blocks>
         </grid>
-        <grid width="2" user_class="" linked_to_default="Y" status="A" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="0">
+        <grid width="2" user_class="top-links-grid" linked_to_default="Y" status="A" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="0">
           <blocks>
             <block>
               <type><![CDATA[my_account]]></type>
